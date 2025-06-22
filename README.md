@@ -1,5 +1,6 @@
 # ✅ To-Do List Project (In Progress)
-![image](https://github.com/user-attachments/assets/604f6c57-3846-4a3c-901a-b3a9ea41d7ba)
+![image](https://github.com/user-attachments/assets/4834a2e1-7c29-4079-a437-16b1a48fa541)
+
 
 This is a **simple and interactive To-Do List app** built using **HTML**, **CSS**, and **JavaScript** — created for **practice and revision** purposes.
 ---
