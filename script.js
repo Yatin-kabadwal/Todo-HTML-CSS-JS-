@@ -3,14 +3,12 @@ const addButton = document.getElementById("add-btn");
 const taskList = document.getElementById("task-list");
 const emptyMsg = document.getElementById("empty-msg");
 
-// Load tasks from localStorage
 window.onload = () => {
   const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
   tasks.forEach(task => renderTask(task.text, task.completed));
   checkEmpty();
 };
 
-// Add task
 addButton.addEventListener("click", () => {
   const taskText = inputBox.value.trim();
   if (taskText === "") {
